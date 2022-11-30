@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --Brown: #5f370c;
+  --Purple: #2b193d;
+  --Very-dark-cyan: #004241;
+  --Transparent-white: #ffffffbf;
+  --Very-light-gray: hsl(0, 0%, 95%);
+  --space-l-xl: clamp(1.88rem, calc(1.54rem + 1.41vw), 2.81rem);
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: var(--space-l-xl);
+}
+
+.card {
+  display: grid;
+  gap: 1.75rem;
+  padding: var(--space-l-xl);
+}
+
+.card--title {
+  color: var(--Very-light-gray);
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.5rem;
+}
+
+.card--text {
+  color: var(--Transparent-white);
+  line-height: 1.8;
+}
+
+.btn {
+  background-color: var(--Very-light-gray);
+  outline: 2px solid var(--Very-light-gray);
+  padding: 0.75rem;
+  text-align: center;
+  width: 60%;
+  border-radius: 2rem;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: var(--Transparent-white);
+  transition: 0.3s;
+}
+
+.btn:focus-visible {
+  outline: 2px solid var(--Very-light-gray);
+  outline-offset: 5px;
+}
+
+.sedans {
+  background-color: var(--Brown);
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.sedans a {
+  color: var(--Bown);
+}
+
+.suvs {
+  background-color: var(--Purple);
+}
+
+.suvs a {
+  color: var(--Purple);
+}
+
+.luxury {
+  background-color: var(--Very-dark-cyan);
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.luxury a {
+  color: var(--Very-dark-cyan);
+}
+
+/* Mobile View */
+@media screen and (max-width: 500px) {
+  .container {
+    height: auto;
+    margin: 5rem 0rem;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .sedans {
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+
+  .luxury {
+    border-radius: 0 0 0.5rem 0.5rem;
+  }
+
+  .btn {
+    margin: 1rem 0;
+  }
+}
