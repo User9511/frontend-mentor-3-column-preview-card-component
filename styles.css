@@ -24,7 +24,7 @@ body {
 .container {
   display: flex;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   max-width: 960px;
   margin: 0 auto;
 }
@@ -103,11 +103,6 @@ body {
 
 /* Mobile View */
 @media screen and (max-width: 500px) {
-  .container {
-    height: auto;
-    margin: 5rem 0rem;
-  }
-
   .wrapper {
     grid-template-columns: 1fr;
   }
