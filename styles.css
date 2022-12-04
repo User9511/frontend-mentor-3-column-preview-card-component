@@ -8,9 +8,9 @@
 }
 
 :root {
-  --Brown: #5f370c;
-  --Purple: #2b193d;
-  --Very-dark-cyan: #004241;
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
   --Transparent-white: #ffffffbf;
   --Very-light-gray: hsl(0, 0%, 95%);
   --space-l-xl: clamp(1.88rem, calc(1.54rem + 1.41vw), 2.81rem);
@@ -68,7 +68,7 @@ body {
 }
 
 .sedans {
-  background-color: var(--Brown);
+  background-color: var(--Bright-orange);
   border-radius: 0.5rem 0.5rem 0 0;
 }
 
@@ -77,7 +77,7 @@ body {
 }
 
 .suvs {
-  background-color: var(--Purple);
+  background-color: var(--Dark-cyan);
 }
 
 .suvs a {
