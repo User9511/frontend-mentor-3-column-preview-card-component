@@ -7,8 +7,8 @@
 
 ### Links
 
-- Solution URL: [https://github.com/Smgy94/frontend-mentor-3-column-preview-card-component]()
-- Live Site URL: [https://smgy94.github.io/frontend-mentor-3-column-preview-card-component/]()
+- Solution URL: [https://www.frontendmentor.io/solutions/3-column-preview-card-component-nPhGpFiWaK](https://www.frontendmentor.io/solutions/3-column-preview-card-component-nPhGpFiWaK)
+- Live Site URL: [https://smgy94.github.io/frontend-mentor-3-column-preview-card-component/](https://smgy94.github.io/frontend-mentor-3-column-preview-card-component/)
 
 # Frontend Mentor - 3-column preview card component solution
 
