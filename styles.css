@@ -13,12 +13,14 @@
   --Very-dark-cyan: hsl(179, 100%, 13%);
   --Transparent-white: #ffffffbf;
   --Very-light-gray: hsl(0, 0%, 95%);
+  --Bg-body: hsl(0, 0%, 95%);
   --space-l-xl: clamp(1.88rem, calc(1.54rem + 1.41vw), 2.81rem);
 }
 
 body {
   font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
+  background-color: var(--Bg-body);
 }
 
 .wrapper {
